@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!-- import CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+ 
+</head>
+<body>
+  <div id="app">
+   
+  
+  <mt-header fixed title="固定在顶部" style="background:#fff;color:#000;border:1px solid gray;"></mt-header>
+  
+  
+   <div style="margin-top:120px;">
+   
+    <v-distpicker :province="select.province" @province="changeProvince"
+                  :city="select.city" @city="changeCity"
+                  :area="select.area" @area="changeArea"
+                  class="form-control"></v-distpicker>
+
+    {{select.province}}<br>
+    {{select.city}}<br>
+    {{select.area}}<br>
+  
+   
+   </div>
+   
+   
+    <!--  start of foot  -->
+  
+     <mt-tabbar v-model="selected" fixed>
+      <mt-tab-item :menus="menus" v-for="menu in menus" :id="menu.name" :key="menu.id"  @click.native="switchIcon(menu.image)">
+        
+        <img slot="icon" :src="menu.image" style="cursor:pointer;" > 
+            
+            {{ menu.name }}  
+         </img>
+       
+      </mt-tab-item>
+    
+    </mt-tabbar>
+   <!--  end of foot  -->
+   
+   
+  </div>
+  
+  
+</body>
+  <!-- import Vue before Mint UI -->
+  <script src="./js/vue.js"></script>
+  <!-- import JavaScript -->
+  <script src="./js/mint-ui.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/v-distpicker.js"></script>
+  <script>
+  Vue.component('v-distpicker', VDistpicker);
+    new Vue({
+      el: '#app',
+      data() {
+    	
+    	 return {
+    		selected: '主页', 
+    		menus: [
+    				{'name':'主页','image':'./images/home_active.png'},
+    				{'name':'客服','image':'./images/kefu.png'},
+    				{'name':'门店','image':'./images/shop.png'},
+    				{'name':'购物车','image':'./images/cart.png'},
+    				{'name':'我的','image':'./images/me.png'}
+    				   
+    			],
+    			
+    			select: { province: '广东省', city: '广州市', area: '海珠区' }
+    			
+	
+    			
+    	 }
+    	  
+      },
+      methods: {
+    	  
+    	  changeProvince(data) {
+              this.select.province = data.value;
+          },
+          changeCity(data) {
+              this.select.city = data.value;
+          },
+          changeArea(data) {
+              this.select.area = data.value;
+          },
+
+        handleClick: function() {
+          this.$toast('Hello world!')
+        },
+        
+        switchIcon (src) {
+            
+            var b=(src.indexOf('home')>0);
+          
+             this.menus.forEach(function(item){
+                 if(src == item['image'])//点击的ICON变成激活图片
+                 {
+                   
+                   if(src.indexOf('_active.png') === -1)//not active
+                   {
+                      var len=item['image'].indexOf(".png");
+                      var preffix=src.substring(0, len);
+                      item['image']=preffix+'_active.png';
+                   }
+                 
+                 }else{//未点击的ICON全部变成未激活图片
+                   var len =item['image'].indexOf('_active.png');
+                   if(len > 0)
+                   {
+                      var preffix=item['image'].substring(0, len);
+                      item['image']=preffix+'.png';
+                   }
+                 }
+                 
+                
+            });
+        }
+        
+      }
+    })
+  </script>
+  
+</html>
