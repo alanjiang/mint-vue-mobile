@@ -1,0 +1,120 @@
+
+18607503285|331479
+https://s3.cn-northwest-1.amazonaws.com.cn/dian/shop/thumb-73_20190709114413_95153b03-caa9-4d76-b2d3-e178ec3afb53.jpg
+https://s3.cn-northwest-1.amazonaws.com.cn/dian/shop/thumb-73_20190709114413_95153b03-caa9-4d76-b2d3-e178ec3afb53.jpg
+
+https://s3.cn-northwest-1.amazonaws.com.cn/dian/merchandise/thumb-73_20181104163731_6b2e0505-591d-488a-a2a8-ffa938fa6598..jpg
+[{"id":2096,"name":"爱神玫瑰","sort":"农场特品三","image":"https://s3.cn-northwest-1.amazonaws.com.cn/hanniu/merchandise/2090/thumb-30_20190626190847_12599a22-ceaa-4756-8ca2-b34b685a1617.jpg","price":50.0,"sales":1200,
+
+
+"attrs":[{"attr_key":"重量","attr_key_en":"zhongliang","attr_values":[{"attr_id":4680,"attr_value":"3斤"},{"attr_id":4681,"attr_value":"5斤"}]}],"mer_attr_price":[{"mer_price_id":4694,"label":"重量:3斤 ","price":150.0,"num":999,"symbol":"4680","items":[{"id":4680,"attr_key":"重量","attr_key_en":"zhongliang","attr_value":"3斤","no":0,"adminid":30}]},{"mer_price_id":4695,"label":"重量:5斤 ","price":228.0,"num":999,"symbol":"4681","items":[{"id":4681,"attr_key":"重量","attr_key_en":"zhongliang","attr_value":"5斤","no":0,"adminid":30}]}]},
+
+
+{"id":3113,"name":"夏黑","sort":"农场特品一","image":"https://s3.cn-northwest-1.amazonaws.com.cn/hanniu/merchandise/2090/thumb-30_20190626184157_d28ec149-f2b7-48b8-ad0c-ac0f6bb29166.jpg","price":30.0,"sales":1200,"attrs":[],"mer_attr_price":[]},{"id":2222,"name":"东方之星","sort":"农场特品一","image":"https://s3.cn-northwest-1.amazonaws.com.cn/hanniu/merchandise/2090/thumb-30_20190626190918_f16bd5f1-461d-46b0-bc24-1ba2b955968b.jpg","price":50.0,"sales":1200,"attrs":[],"mer_attr_price":[]},
+
+
+
+{
+
+"id":3297,"name":"咖啡豆","sort":"农场特品三","image":"https://s3.cn-northwest-1.amazonaws.com.cn/hanniu/merchandise/2090/thumb-30_20190626190212_8d78280a-0d40-4308-a641-430658babdb6.jpg","price":50.0,"sales":1200,
+
+"attrs":[
+{"attr_key":"规格","attr_key_en":"guige",
+"attr_values":[
+ {"attr_id":4686,"attr_value":"250g"},
+ {"attr_id":4687,"attr_value":"500g"}
+ ]
+ },
+ 
+ {"attr_key":"色泽","attr_key_en":"seze",
+ "attr_values":[
+ {"attr_id":4677,"attr_value":"浅焙"},
+ {"attr_id":4678,"attr_value":"中焙"},
+ {"attr_id":4679,"attr_value":"深焙"}
+ ]
+ }
+ ],
+ 
+ "mer_attr_price":[
+ 
+ {"mer_price_id":4688,"label":"规格:250g 色泽:浅焙 ","price":50.0,"num":999,"symbol":"4686,4677",
+ 
+   "items":[
+     {"id":4686,"attr_key":"规格","attr_key_en":"guige","attr_value":"250g","no":0,"adminid":30},
+     {"id":4677,"attr_key":"色泽","attr_key_en":"seze","attr_value":"浅焙","no":0,"adminid":30}
+   ]
+  },
+  
+  {"mer_price_id":4689,"label":"规格:250g 色泽:中焙 ","price":50.0,"num":999,"symbol":"4686,4678",
+  
+  "items":[
+    {"id":4686,"attr_key":"规格","attr_key_en":"guige","attr_value":"250g","no":0,"adminid":30},
+    
+    {"id":4678,"attr_key":"色泽","attr_key_en":"seze","attr_value":"中焙","no":0,"adminid":30}
+    
+    ]
+    
+    },
+    
+    {"mer_price_id":4690,"label":"规格:250g 色泽:深焙 ","price":50.0,"num":999,"symbol":"4686,4679",
+    
+    "items":[{"id":4686,"attr_key":"规格","attr_key_en":"guige","attr_value":"250g","no":0,"adminid":30},
+    
+    {"id":4679,"attr_key":"色泽","attr_key_en":"seze","attr_value":"深焙","no":0,"adminid":30}]
+    
+    },
+    
+    {"mer_price_id":4691,"label":"规格:500g 色泽:浅焙 ","price":100.0,"num":999,"symbol":"4687,4677",
+    
+    "items":[
+    {"id":4687,"attr_key":"规格","attr_key_en":"guige","attr_value":"500g","no":0,"adminid":30},
+    
+    {"id":4677,"attr_key":"色泽","attr_key_en":"seze","attr_value":"浅焙","no":0,"adminid":30}
+    ]
+    },
+    
+    {"mer_price_id":4692,"label":"规格:500g 色泽:中焙 ","price":100.0,"num":999,"symbol":"4687,4678",
+    
+    "items":[
+    
+    {"id":4687,"attr_key":"规格","attr_key_en":"guige","attr_value":"500g","no":0,"adminid":30},
+    
+    {"id":4678,"attr_key":"色泽","attr_key_en":"seze","attr_value":"中焙","no":0,"adminid":30}
+    
+    ]
+    
+    },
+
+
+
+{
+
+"mer_price_id":4693,"label":"规格:500g 色泽:深焙 ","price":100.0,"num":999,"symbol":"4687,4679",
+
+
+"items":[
+
+{"id":4687,"attr_key":"规格","attr_key_en":"guige","attr_value":"500g","no":0,"adminid":30},
+
+{"id":4679,"attr_key":"色泽","attr_key_en":"seze","attr_value":"深焙","no":0,"adminid":30}
+
+]}]},{"id":2658,"name":"美人指","sort":"农场特品一","image":"https://s3.cn-northwest-1.amazonaws.com.cn/hanniu/merchandise/2090/thumb-30_20190626190433_bd36bcae-1d20-441f-94c5-408615bee462.jpg","price":30.0,"sales":1200,"attrs":[],"mer_attr_price":[]},{"id":4156,"name":"阳光玫瑰","sort":"农场特品一","image":"https://s3.cn-northwest-1.amazonaws.com.cn/hanniu/merchandise/2090/thumb-30_20190626184126_ddc64a62-757f-4ce8-b774-7d60991c061b.jpg","price":50.0,"sales":1200,"attrs":[{"attr_key":"重量","attr_key_en":"zhongliang","attr_values":[{"attr_id":4680,"attr_value":"3斤"},{"attr_id":4681,"attr_value":"5斤"}]}],"mer_attr_price":[{"mer_price_id":4682,"label":"重量:3斤 ","price":150.0,"num":999,"symbol":"4680","items":[{"id":4680,"attr_key":"重量","attr_key_en":"zhongliang","attr_value":"3斤","no":0,"adminid":30}]},{"mer_price_id":4683,"label":"重量:5斤 ","price":228.0,"num":999,"symbol":"4681","items":[{"id":4681,"attr_key":"重量","attr_key_en":"zhongliang","attr_value":"5斤","no":0,"adminid":30}]},{"mer_price_id":4684,"label":"重量:3斤 ","price":150.0,"num":999,"symbol":"4680","items":[{"id":4680,"attr_key":"重量","attr_key_en":"zhongliang","attr_value":"3斤","no":0,"adminid":30}]},{"mer_price_id":4685,"label":"重量:5斤 ","price":228.0,"num":999,"symbol":"4681","items":[{"id":4681,"attr_key":"重量","attr_key_en":"zhongliang","attr_value":"5斤","no":0,"adminid":30}]}]}]
+
+
+
+scp root@52.83.32.204:/usr/home/dlm/WEB-INF/pages/shop.jsp /Users/zhangxiao/eclipse-workspace/Element/
+
+scp /Users/zhangxiao/eclipse-workspace/Element/shop.jsp root@52.83.32.204:/usr/home/dlm/WEB-INF/pages/
+
+if($(window).scrollTop() >= 150){
+    		   
+    	        $('.swiper-container-ul').css('position','fixed');
+    	        $('.left').css('position','fixed');
+    	        $('.right').css('margin-left',$('.left').width());
+    	      }else {
+    		  
+    	        $('.swiper-container-ul').css('position','');
+    	        $('.left').css('position','');
+    	        $('.right').css('margin-left','');
+    	      };
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- import CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/mint-ui/lib/style.css">
+ 
+  
+</head>
+<body>
+  <div id="app">
+   
+  
+  <mt-header title="Test" style="background:#fff;color:#000;">
+  <router-link to="/" slot="left">
+    <mt-button icon="back">首页</mt-button>
+    <mt-button @click="handleClose">关闭</mt-button>
+  </router-link>
+  <mt-button icon="more" slot="right"></mt-button>
+ </mt-header>
+  
+ <div id="ex1" class="modal">
+ 
+  
+  <p>Thanks for clicking. That felt good.</p>
+  
+  
+  <a href="#" rel="modal:close">Close</a>
+  
+  <mt-button type="primary" size="small">About</mt-button>
+</div>
+
+<!-- Link to open the modal -->
+<p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+   
+  
+  </div>
+</body>
+  <!-- import Vue before Mint UI -->
+  <script src="./js/vue.js"></script>
+  <!-- import JavaScript -->
+  <script src="./js/mint-ui.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/json2.js"></script>
+  <!-- https://jquerymodal.com/ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  <script>
+    new Vue({
+      el: '#app',
+      data() {
+    	
+    	 return {
+    		selected: '主页'
+    		
+	
+    			
+    	 }
+    	  
+      },
+      methods: {
+        handleClick: function() {
+          this.$toast('Hello world!')
+        }
+        
+        
+        
+        
+      },
+      
+      created () {
+      	
+     	
+     	 
+     	 
+     }
+      
+    });
+  </script>
+  
+</html>
